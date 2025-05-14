@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Kelvin Kisilu</title>
+    <link rel="stylesheet" href="css/styles10.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<style>
+     body {
+      background-color: lightblue; 
+    }
+</style>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Kelvin Kisilu</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="gallery-hero">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <p>A collection of my favorite works across different photography genres</p>
+        </div>
+    </section>
+
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wedding">Weddings</button>
+                <button class="filter-btn" data-filter="portrait">Portraits</button>
+                <button class="filter-btn" data-filter="event">Events</button>
+                <button class="filter-btn" data-filter="landscape">Landscapes</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="grid">
+                <div class="gallery-item wedding">
+                    <img src="https://images.pexels.com/photos/931796/pexels-photo-931796.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wedding photo">
+                    <div class="overlay">
+                        <h3>Sarah & Michael</h3>
+                        <p>Lakeside Wedding</p>
+                    </div>
+                </div>
+                <div class="gallery-item portrait">
+                    <img src="https://images.pexels.com/photos/2422293/pexels-photo-2422293.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portrait photo">
+                    <div class="overlay">
+                        <h3>Executive Portrait</h3>
+                        <p>Corporate Branding</p>
+                    </div>
+                </div>
+                <div class="gallery-item event">
+                    <img src="https://media.istockphoto.com/id/1365412652/photo/multiethnic-diverse-office-conference-room-meeting-team-of-two-creative-entrepreneurs-talk.jpg?b=1&s=612x612&w=0&k=20&c=o3i6_LwgmdF4U1fRZ2eiLAfY7ut6ftQ5sLLKWDXDOGE=" alt="Event photo">
+                    <div class="overlay">
+                        <h3>Tech Conference</h3>
+                        <p>Annual Summit 2024</p>
+                    </div>
+                </div>
+                <div class="gallery-item landscape">
+                    <img src="https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Landscape photo">
+                    <div class="overlay">
+                        <h3>Savannah Sunrise</h3>
+                        <p>Maasai Mara</p>
+                    </div>
+                </div>
+                <div class="gallery-item wedding">
+                    <img src="https://images.pexels.com/photos/32005369/pexels-photo-32005369/free-photo-of-elegant-cultural-wedding-celebration-dance.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wedding photo">
+                    <div class="overlay">
+                        <h3>Traditional Ceremony</h3>
+                        <p>Cultural Wedding</p>
+                    </div>
+                </div>
+                <div class="gallery-item portrait">
+                    <img src="https://images.pexels.com/photos/4513729/pexels-photo-4513729.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portrait photo">
+                    <div class="overlay">
+                        <h3>Maternity Session</h3>
+                        <p>Golden Hour</p>
+                    </div>
+                </div>
+                <div class="gallery-item event">
+                    <img src="https://images.pexels.com/photos/2876659/pexels-photo-2876659.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Event photo">
+                    <div class="overlay">
+                        <h3>Music Piano</h3>
+                        <p>Latest Piano</p>
+                    </div>
+                </div>
+                <div class="gallery-item landscape">
+                    <img src="https://images.pexels.com/photos/32038640/pexels-photo-32038640/free-photo-of-serene-sunset-over-the-ocean-with-airplane.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Landscape photo">
+                    <div class="overlay">
+                        <h3>Coastal Sunset</h3>
+                        <p>Diani Beach</p>
+                    </div>
+<div class="gallery-item wedding">
+    <img src="https://images.pexels.com/photos/8246012/pexels-photo-8246012.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bride and groom exchanging rings">
+    <div class="overlay">
+        <h3>Ring Exchange</h3>
+        <p>Traditional Ceremony</p>
+    </div>
+</div>
+
+<!--  landscape photo -->
+<div class="gallery-item landscape">
+    <img src="https://images.pexels.com/photos/59989/elephant-herd-of-elephants-african-bush-elephant-africa-59989.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sunset over savannah">
+    <div class="overlay">
+        <h3>African Elephant</h3>
+        <p>Amboseli National Park</p>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Capture Your Special Moments?</h2>
+            <p>Whether it's a wedding, corporate event, or personal portrait session, I'd love to help tell your story through photography.</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kelvin Kisilu</h3>
+                    <p>Professional photographer and videographer based in Nairobi, Kenya.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Kelvin Kisilu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script5.js"></script>
+</body>
+</html>
